@@ -745,6 +745,16 @@ h2 {
     background-color: #ebe9f199;
 }
 
+.lst-h3 {
+    line-height: 40px;
+    margin: 25px -25px;
+    padding: 0px 5px;
+    border-left: 50px solid #2196F3;
+    font-size: 18px;
+    font-weight: bolder;
+    background-color: #ebe9f199;
+}
+
 @media (min-width: 576px) {
     h2 {
         font-size: 36px;
@@ -5588,6 +5598,11 @@ pre {
     padding: 0 1.4rem;
     position: relative;
     word-wrap: normal
+}
+
+.table-bordered img {
+    width: 50px;
+    margin: 10px;
 }
 
 .token.cdata,
